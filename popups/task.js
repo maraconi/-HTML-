@@ -10,6 +10,7 @@ modalClose[0].onclick = function () {
 }
 
 showSuccess.onclick = function () {
+    modal_main.className = 'modal';
     modalSuccess.className = 'modal modal_active';
 }
 
